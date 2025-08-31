@@ -1,6 +1,6 @@
 # sreconf-temporal-demo
 
-This project is a simple demo utilizing Temporal to run a workflow that tags AWS Subnets.
+This project is a simple demo utilizing [Temporal](https://temporal.io) to run a workflow that tags AWS Subnets.
 
 ## Setup
 
@@ -10,8 +10,8 @@ In order to run this, besides needing Go, you will also need Temporal.
 
 ## Running
 
-* Start temporal with: `temporal server start-dev`
-* Start the work by running `go run main.go`
+* Start Temporal with: `make start-temporal`
+* Start the worker with: `make worker`
 
 ## Running a Workflow
 
